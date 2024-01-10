@@ -8,9 +8,8 @@ import { ContactComponent } from './contact/contact.component';
   selector: 'nfc-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, HomeComponent, ContactComponent],
-
   imports: [CommonModule, RouterOutlet],
-
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
