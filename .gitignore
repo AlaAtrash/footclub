@@ -11,7 +11,6 @@
 npm-debug.log
 yarn-error.log
 
-
 # IDEs and editors
 .idea/
 .project
@@ -41,4 +40,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
 
+=======
+>>>>>>> 81fe02d (first commit)
