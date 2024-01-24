@@ -17,6 +17,14 @@ label, input, textarea{
     border: none;
     border-radius: 5px;
 }
+.pageContact, input, textarea{
+    background-color: #000d08;
+}
+label, input, textarea{
+    color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+}
 form{
     background-color: #353536;
     display: flex;
