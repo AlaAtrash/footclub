@@ -7,8 +7,4 @@ export const routes: Routes = [
   { path: 'contact', component: ContactComponent },
 ];
 
-export const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'contact', component: ContactComponent },
-];
 
