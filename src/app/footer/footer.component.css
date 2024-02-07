@@ -1,0 +1,82 @@
+.border{
+    border: 2px solid #A5D81F; 
+}
+
+.footer{
+    background-color: #000d08;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: "Dela Gothic One", "Montserrat", Arial, Helvetica, sans-serif;
+    height: 300px;
+    color: #fff;
+}
+
+.imag{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    height: 210px;
+}
+.logo{
+    width:200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.contact{
+    width: 33%;
+    padding-top: 25px;
+    height: 150px;
+}
+
+.contact h2,h3,p{
+    padding-left: 30px;
+}
+.contact h3{
+    margin-bottom: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.contact p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.reseau{
+    width: 33%;
+    padding-top: 25px;
+    height: 210px;
+}
+
+.reseau h2{
+    margin-left: 20px;
+}
+
+.logo-reseau{
+    margin-left: 20px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+}
+.droits{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.droits p{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin-right: 18rem;
+    margin-top: 0;
+}
