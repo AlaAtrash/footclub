@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
     selector: 'nfc-contact',
@@ -8,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+}
+
+export class ProfileEditorComponent {
+    profileForm = new FormGroup({
+    name: new FormControl(''),
+    firstmame: new FormControl(''),
+    email: new FormControl(''),
+    telephone: new FormControl(''),
+    
+    });
 }
