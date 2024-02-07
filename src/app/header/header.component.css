@@ -1,0 +1,58 @@
+.header{
+    background-color: #000d08;
+    display: flex;
+    width: 100%;
+    font-family: "Dela Gothic One", "Montserrat", Arial, Helvetica, sans-serif;
+    height: 100px;
+}
+
+.imag{
+    width: 40%;
+    padding-left: 60px;
+}
+img{
+    width:100px;
+    height: 100px;
+}
+.nav{
+    width:60%;
+    background-color: blueviolet;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap:60px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 100px;
+    margin-top: 0;
+    
+}
+
+li{
+    width: 120px;
+}
+
+a:hover{
+    color: #A5D81F;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.border{
+    border: 2px solid #A5D81F; 
+}
+.icon{
+    height: 50px;
+    padding-top: 16px;
+    
+}
+.login{
+    height: 25px;
+    width:25px;
+}
