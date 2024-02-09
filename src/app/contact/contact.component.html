@@ -1,19 +1,20 @@
 
 <div class="pageContact">
     
-    <form action="#" method="post" [formGroup]="profileForm">
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+
         <h1>formulaire de contact</h1>
         <label  for="name">nom
-            <input type="text" id="name" name="name" formControlName="name" required>
+            <input type="text" id="name" name="name" formControlName="name">
         </label>
         <label for="firstname">prénom
-            <input type="text" id="firstname" name="firstname" formControlName="firstname" required>
+            <input type="text" id="firstname" name="firstname" formControlName="firstname">
         </label>
         <label for="email">email
-            <input type="email" id="email" name="email" formControlName="email" required>
+            <input type="email" id="email" name="email" required>
         </label>
         <label for="telephone">téléphone
-            <input type="tel" id="telephone" name="telephone" formControlName="telephone" required>
+            <input type="tel" id="telephone" name="telephone"  required>
         </label>
         <label for="objectMessage">objet du message 
             <input type="text" id="objectMessage" name="objectMessage">
@@ -26,7 +27,7 @@
             <textarea id="message" name="message" rows="10" cols="50"></textarea>
         </label>
         <div class="divButton">
-            <input type="submit" id="button" value="Envoyer"> 
+            <input type="submit" id="button" value="Envoyer" [disabled]="!profileForm.valid"> 
         </div>
     </form>
 </div>
