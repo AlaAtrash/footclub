@@ -1,19 +1,19 @@
 
 <div class="pageContact">
     
-    <form action="#" method="post" formGroup="profileForm">
+    <form action="#" method="post" [formGroup]="profileForm">
         <h1>formulaire de contact</h1>
         <label  for="name">nom
-            <input type="text" id="name" name="name" formControl="name" required>
+            <input type="text" id="name" name="name" formControlName="name" required>
         </label>
         <label for="firstname">prénom
-            <input type="text" id="firstname" name="firstname" formControl="firstname" required>
+            <input type="text" id="firstname" name="firstname" formControlName="firstname" required>
         </label>
         <label for="email">email
-            <input type="email" id="email" name="email" formControl="email" required>
+            <input type="email" id="email" name="email" formControlName="email" required>
         </label>
         <label for="telephone">téléphone
-            <input type="tel" id="telephone" name="telephone" formControl="telephone" required>
+            <input type="tel" id="telephone" name="telephone" formControlName="telephone" required>
         </label>
         <label for="objectMessage">objet du message 
             <input type="text" id="objectMessage" name="objectMessage">
